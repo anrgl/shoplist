@@ -24,6 +24,7 @@ defmodule Shoplist.DataCase do
       import Ecto.Changeset
       import Ecto.Query
       import Shoplist.DataCase
+      import Shoplist.Factory
     end
   end
 

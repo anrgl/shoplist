@@ -28,6 +28,7 @@ defmodule ShoplistWeb.ConnCase do
       import Plug.Conn
       import Phoenix.ConnTest
       import ShoplistWeb.ConnCase
+      import Shoplist.Factory
     end
   end
 
